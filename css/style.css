@@ -1,0 +1,236 @@
+/*
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.vanilla:hover {
+  filter: drop-shadow(0 0 2em #f7df1eaa);
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.rounded-image {
+  border-radius: 8px;
+  width: 150px;
+  height: auto;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+*/
+
+
+body {
+  width: 70%;
+  height: 100%;
+  margin: 20px;
+  padding: 20px;
+  border: 5px solid rgb(92, 92, 92);
+  font-family: Arial, sans-serif;
+}
+
+li, p, h1, h2, h3 {
+  font-family: "Times New Roman", serif;
+  margin: 5px;
+  text-align: justify;
+}
+
+ .blockBorder {
+  border: 2px solid #ef2a2a; /* Параметры рамки */
+  width: 610px;
+  margin: 8px;
+  padding: 8px;
+ }
+
+ .blockGreen {
+  background:  #7ff97d; /* Цвет фона */
+  width: 460px; /* Ширина */
+  height:100%;
+  margin: 0 10px 10px 0; /* Отступы */
+  padding: 10px 0; /* Поля сверху и снизу */
+  text-align: justify; /* Выравнивание по центру */
+  display: inline-block; /* Строчно-блочный элемент */
+  border-radius: 8px;
+ }
+
+ .parent_2 {
+  display: flex;
+  width: 100%;
+
+}
+
+.parent_2 img {
+   border: 3px solid #ef2a2a; /*Параметры рамки */
+   width: 170px;
+   margin: 10px 10px 10px 10px;
+   text-align: justify;
+  }
+  .childMin {
+    width: 8%
+  }
+
+  .child70 {
+    width: 70%;
+    text-align: center;
+  }
+  .child30 {
+    width: 30%;
+    background-color: #ebebeb;
+    margin: 10px 10px 10px 10px;
+    border-radius: 8px;
+    text-align: center;
+  }
+
+ .child1_2 {
+   width: 20%;
+   margin: 0px 10px 0 10px;
+   
+ }
+ 
+ .child2_2 {
+   width: 25%;
+   background-color: #ebebeb;
+   margin: 10px 10px 10px 10px;
+   border-radius: 8px;
+   text-align: center;
+ }
+ 
+ .child3_2 {
+   width: 21%;
+   background-color: #ebebeb;
+   margin: 10px 10px 10px 10px;
+   border-radius: 8px
+ }
+
+ .parent {
+  display: flex;
+  width: 100%;
+}
+
+.parent img {
+ /* border: 2px solid #ef2a2a; Параметры рамки */
+  width: 90px;
+  text-align: justify;
+ }
+
+.child1 {
+	width: 75%
+}
+
+.child2 {
+	width: 25%
+}
+
+.child3 {
+	width: 33%;
+	background-color: #ebebeb;
+	margin: 10px 10px 10px 10px;
+	border-radius: 8px
+}
+.childPhoto {
+	width: 33%;
+	background-color: #ebebeb;
+	margin: 10px 10px 10px 10px;
+	border-radius: 8px
+}
+
+.content{
+  background-color: #ebebeb;
+	margin: 10px 10px 10px 10px;
+	border-radius: 8px
+}
+
+.contentGreen{
+  background-color: #7ff97d;
+	margin: 10px 10px 10px 10px;
+	border-radius: 8px
+}
+contentLine{
+  background-color:  #7ff97d;
+	margin: 10px 10px 10px 10px;
+	border-radius: 8px
+}
